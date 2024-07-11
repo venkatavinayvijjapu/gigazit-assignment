@@ -6,7 +6,7 @@ This project demonstrates two approaches for converting an image into its pixel 
 
 ### 1. Direct Pixel Extraction
 
-This approach involves in evolving with the image and get the max RGB from image and store in a list.
+It starts by loading the image from the specified file path (`'sample_image.jpg'`) using the `Image.open` function from the Pillow library. The image is then converted to the RGB color space with the `convert('RGB')` method to ensure consistency in pixel values. The width and height of the image are retrieved using the `size` attribute. An empty list named `pixels` is initialized to store the maximum RGB values. The code then iterates over each pixel in the image using nested loops: the outer loop iterates over the height (rows) and the inner loop over the width (columns). For each pixel, the RGB values are extracted using the `getpixel` method, and the maximum value among the R, G, and B components is appended to the `pixels` list. Finally, the list of maximum RGB values is printed. This approach effectively captures the most prominent color intensity at each pixel location.
 
 #### Libraries Used
 -  Python (3.x recommended)
