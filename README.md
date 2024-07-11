@@ -38,6 +38,10 @@ The `visualize_segmentation` function takes the original image and the segmentat
 - Pillow
 - Matplotlib
 
+## Visulaization:
+
+The Repository consist of the codes for Pixel to image representationa and Original Image and the segmented Image Representation.
+
 
 ## Advantages and Disadvantages
 
